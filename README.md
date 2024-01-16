@@ -64,7 +64,33 @@ Awaaz aspires to bridge accessibility gaps in speech therapy by extending its im
 
 ## Getting Started
 
-To get started with Awaaz, follow the installation instructions in the [Documentation](docs/README.md).
+To get started with Awaaz, follow the installation instructions:
+
+- Fork Awaaz repository.
+- Copy the URL written under the HTTPS section in the Code dropdown button in your forked repository.
+- Open your terminal and in your local repository run the following code:
+    
+    ```bash
+    git init
+    git clone <URL>
+    ```
+- Open local repo in VSCode by typing: 
+    
+    ```bash
+    code .
+    ```
+- Inside local repo terminal write the following code to install all required npm packages:
+
+    ```bash
+    npm install
+    ```
+- To run the client-side run the following code:
+
+    ```bash
+    npm start
+    ```
+
+- To run server-side simply run main.py file.
 
 ## Contributing
 
