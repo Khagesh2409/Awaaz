@@ -49,6 +49,9 @@ Awaaz boasts a visually appealing and user-friendly interface, offering an intui
 - Selenium
 - Python
 
+### 3D Models and Animations
+- Blender
+
 ## Target Audience
 
 - **Users:** Children and adults with speech-sound production challenges.
