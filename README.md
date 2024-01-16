@@ -34,6 +34,20 @@ For a more personalized touch, Awaaz allows users to initiate video calls with s
 
 Awaaz boasts a visually appealing and user-friendly interface, offering an intuitive and seamless experience. The website's design prioritizes accessibility, ensuring that users of all ages and abilities can navigate the platform effortlessly.
 
+## Technologies Used
+
+### Frontend
+- Vanilla CSS
+- JavaScript (ReactJS)
+
+### Backend
+- Python (Flask)
+- OpenAI APIs
+
+### Machine Learning
+- Google Collab
+- Selenium
+- Python
 
 ## Target Audience
 
