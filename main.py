@@ -152,7 +152,7 @@ def record():
 
 @app.route("/remedy/<int:averagePercentage>", methods=["GET", "POST"])
 def remedy(averagePercentage):
-    if (averagePercentage=<50):
+    if (averagePercentage<=50):
         result = {
             "remedy":REMEDY[COUPLED]
         }
