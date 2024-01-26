@@ -1,0 +1,30 @@
+.crdimg{
+    height: 5rem;
+    left:10px;
+    width:05rem;
+    background-color: #5E5B71;
+    border-radius: 1rem;
+
+}
+.crd h1{
+    margin-bottom: 0rem;
+    font-size: 1.5rem;
+}
+.crd p{
+    margin-top: 0.5rem;
+    color:#a09e9e;
+}
+.crd{
+    width:20rem;
+    padding: 1rem;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    margin:1rem;
+    text-align: left;
+    background-color: #312c43;
+    border-radius: 1rem;
+    box-shadow:   0  9px 08px 1px black, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+

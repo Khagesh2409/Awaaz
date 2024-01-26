@@ -1,0 +1,83 @@
+.line1{
+    font-size: 4rem;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+.line2{
+    font-size: 4rem;
+    background-image:linear-gradient(to left,#e66465, #9198e5);
+    background-clip:text;
+    color:transparent;
+    margin-top: 0rem;
+    margin-bottom: 0.75rem;    
+    font-weight: bold;
+    text-align: center;
+}
+
+.small_text{
+    color:#E5E5E5;
+    font-size: 1.5rem;
+    margin-left:27.5%;
+    margin-right:27.5%;
+    text-align: center;
+}
+
+.Features{
+    height: 4rem;
+    font-size: 1.5rem;
+    /* width:17rem; */
+    width:16vw;
+    cursor:pointer;
+    color: white;
+    border-radius: 1.5rem;
+    background-color: #302C3F;
+}
+.image{
+    width:95vw;
+}
+
+@media screen and (max-width:800px) {
+    .small_text{
+        margin-left:15vw;
+        margin-right:15vw;
+    }
+    .btncontent{
+        display: block;
+        text-align: center;
+        /* margin:1rem; */
+    }
+    .Features{
+        margin: 1rem;
+        /* width: 30vw; */
+    }
+
+}
+
+
+@media screen and (max-width:680px) {
+
+    .Features{
+        margin: 1rem;
+        width: 40vw;
+    }
+    .navbar{
+        display: block;
+        margin: 1rem;
+    }
+    .SignOut{
+        margin: 1rem;
+        width:40vw;
+    }
+}
+@media screen and (max-width:680px) {
+
+.line1{
+    font-size: 2rem;
+}
+.line2{
+    font-size: 2.5rem;
+}
+
+}

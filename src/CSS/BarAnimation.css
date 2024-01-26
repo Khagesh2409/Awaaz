@@ -1,0 +1,18 @@
+.MuiChartsAxis-line {
+    stroke: white !important;
+    fill: white;
+}
+
+.MuiChartsAxis-tick {
+    stroke: white !important;
+}
+
+.MuiChartsAxis-tickLabel {
+    stroke: white;
+    font-size: medium !important;
+    letter-spacing: 0.1em !important;
+}
+
+.MuiChartsLegend-series > text {
+    fill: white !important;
+}

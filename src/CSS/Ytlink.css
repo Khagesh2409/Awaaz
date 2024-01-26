@@ -1,0 +1,19 @@
+.ytlink h1{
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+}
+
+.ytlink p{
+    font-size: 1.5rem;
+    color: rgb(134, 134, 134);
+    text-align: center;
+}
+
+@media screen and (max-width:674px){
+.ytimg{
+    width:70vw;
+}
+
+    
+}

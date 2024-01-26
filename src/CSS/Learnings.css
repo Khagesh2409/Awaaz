@@ -1,0 +1,411 @@
+.main {
+    display: flex;
+    width: 96rem;
+    height: 40rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.main2 {
+    position: absolute;
+    left: 10%;
+    top: 13%;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main3 {
+    margin-top: 10%;
+    width: 80%;
+    height: 24rem;
+    position: absolute;
+    background-color: #4B5563;
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+
+.main4 {
+    position: absolute;
+    left: 479px;
+    top: 80px;
+    /* Corresponding to top-[80px] in Tailwind */
+    text-align: center;
+    /* Corresponding to text-center in Tailwind */
+    color: white;
+    /* Corresponding to text-white in Tailwind */
+    font-size: 4.375rem;
+    /* Corresponding to text-7xl in Tailwind */
+    font-weight: 600;
+    /* Corresponding to font-semibold in Tailwind */
+    font-family: 'Poppins', sans-serif;
+    /* Corresponding to font-['Poppins'] in Tailwind */
+}
+
+.main5 {
+    position: absolute;
+    left: 920px;
+    /* Corresponding to left-[916px] in Tailwind */
+    top: 130px;
+    /* Corresponding to top-[126px] in Tailwind */
+    color: white;
+    /* Corresponding to text-white in Tailwind */
+    font-size: 1.5rem;
+    /* Corresponding to text-3xl in Tailwind */
+    font-weight: 150;
+    /* Corresponding to font-semibold in Tailwind */
+    font-family: 'Poppins', sans-serif;
+    /* Corresponding to font-['Poppins'] in Tailwind */
+    line-height: 1.8;
+    /* Corresponding to leading-10 in Tailwind (assuming base leading is 1.25rem) */
+}
+
+.main6 {
+    width: 10rem;
+    /* Corresponding to w-36 in Tailwind */
+    height: 10rem;
+    /* Corresponding to h-36 in Tailwind */
+    position: absolute;
+    left: 130px;
+    /* Corresponding to left-[130px] in Tailwind */
+    top: 90px;
+    /* Corresponding to top-[111px] in Tailwind */
+    border-radius: 50%;
+    /* Corresponding to rounded-full in Tailwind for a circle */
+    border: 2px solid white;
+    /* Corresponding to border-2 border-white in Tailwind */
+}
+
+.main7 {
+    position: absolute;
+    left: 115px;
+    /* Corresponding to left-[115px] in Tailwind */
+    top: 264px;
+    /* Corresponding to top-[264px] in Tailwind */
+    color: white;
+    /* Corresponding to text-white in Tailwind */
+    font-size: 2.5rem;
+    /* Corresponding to text-4xl in Tailwind */
+    font-weight: 600;
+    /* Corresponding to font-semibold in Tailwind */
+    font-family: 'Poppins', sans-serif;
+    /* Corresponding to font-['Poppins'] in Tailwind */
+
+}
+
+.main8 {
+    position: absolute;
+    left: 483px;
+    /* Corresponding to left-[448px] in Tailwind */
+    top: 300px;
+    /* Corresponding to top-[307px] in Tailwind */
+    text-align: center;
+    /* Corresponding to text-center in Tailwind */
+    color: white;
+    /* Corresponding to text-white in Tailwind */
+    font-size: 1.25rem;
+    /* Corresponding to text-2xl in Tailwind */
+    font-weight: 600;
+    /* Corresponding to font-semibold in Tailwind */
+    font-family: 'Poppins', sans-serif;
+    /* Corresponding to font-['Poppins'] in Tailwind */
+
+}
+
+.main9 {
+    position: absolute;
+    left: 940px;
+    /* Corresponding to left-[973px] in Tailwind */
+    top: 40px;
+    /* Corresponding to top-[58px] in Tailwind */
+    color: white;
+    /* Corresponding to text-white in Tailwind */
+    font-size: 2.5rem;
+    /* Corresponding to text-4xl in Tailwind */
+    font-weight: 600;
+    /* Corresponding to font-semibold in Tailwind */
+    font-family: 'Poppins', sans-serif;
+    /* Corresponding to font-['Poppins'] in Tailwind */
+    text-decoration: underline;
+    /* Corresponding to underline in Tailwind */
+    line-height: 2.5;
+    /* Corresponding to leading-10 in Tailwind (assuming base leading is 1.25rem) */
+
+}
+
+/* Global Styles */
+.text-white {
+    color: white;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Specific Styles for the First Div */
+.first-div {
+    margin-left: 10%;
+    color: white;
+    font-size: 2.5rem;
+    /* Corresponding to text-5xl in Tailwind */
+    font-weight: 600;
+    /* Corresponding to font-semibold in Tailwind */
+    font-family: 'Poppins', sans-serif;
+    /* Corresponding to font-['Poppins'] in Tailwind */
+    width: fit-content;
+}
+
+/* Specific Styles for the Second Div and its Children */
+.second-div {
+    margin-left: 10%;
+    width: 80%;
+    /* Corresponding to w-96 in Tailwind */
+    height: 28rem;
+    /* Corresponding to h-96 in Tailwind */
+    position: relative;
+    background-color: #4B5563;
+    /* Assuming zinc-800 corresponds to #4B5563 */
+    border: 2px solid white;
+}
+
+.inner-div {
+    width: 33rem;
+    height: 20rem;
+    /* Corresponding to h-80 in Tailwind */
+    position: absolute;
+    left: 52px;
+    /* Corresponding to left-[52px] in Tailwind */
+    top: 61px;
+    /* Corresponding to top-[61px] in Tailwind */
+    background-color: white;
+    opacity: 0.6;
+    /* Corresponding to bg-opacity-60 in Tailwind */
+    border-radius: 20px;
+    /* Corresponding to rounded-2xl in Tailwind */
+    border: 8px solid black;
+    /* Corresponding to border-8 border-black in Tailwind */
+}
+
+.instructions-span {
+    color: white;
+    font-size: 2.5rem;
+    /* Corresponding to text-4xl in Tailwind */
+    font-weight: 600;
+    /* Corresponding to font-semibold in Tailwind */
+    font-family: 'Poppins', sans-serif;
+    /* Corresponding to font-['Poppins'] in Tailwind */
+}
+
+.instructions-list {
+    margin-top: 1rem;
+    /* Adjust as needed */
+    line-height: 2;
+    /* Corresponding to leading-10 in Tailwind (assuming base leading is 1.25rem) */
+}
+
+/* Global Styles */
+.text-white {
+    color: white;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.border {
+    border: 1px solid currentColor;
+}
+
+/* Specific Styles for the a-div */
+.a-div {
+    width: fit-content;
+    margin-left: 10%;
+    color: white;
+    font-size: 2.5rem;
+    /* Corresponding to text-5xl in Tailwind */
+    font-weight: 600;
+    /* Corresponding to font-semibold in Tailwind */
+    font-family: 'Poppins', sans-serif;
+    /* Corresponding to font-['Poppins'] in Tailwind */
+}
+
+/* Specific Styles for the b-div and its Children */
+.b-div {
+    margin-left: 10%;
+    width: 80%;
+    /* Corresponding to w-96 in Tailwind */
+    height: 28rem;
+    /* Corresponding to h-96 in Tailwind */
+    position: relative;
+    background-color: #4B5563;
+    /* Assuming zinc-800 corresponds to #4B5563 */
+    border: 2px solid white;
+}
+
+.c-div {
+    width: 26rem;
+    height: 18rem;
+    /* Corresponding to h-72 in Tailwind */
+    position: absolute;
+    left: 54px;
+    /* Corresponding to left-[54px] in Tailwind */
+    top: 46px;
+    /* Corresponding to top-[46px] in Tailwind */
+    background-color: white;
+    opacity: 0.6;
+    /* Corresponding to bg-opacity-60 in Tailwind */
+    border-radius: 20px;
+    /* Corresponding to rounded-2xl in Tailwind */
+    border: 8px solid black;
+    /* Corresponding to border-8 border-black in Tailwind */
+}
+
+/* Specific Styles for the d-div and its Children */
+.d-div {
+    width: 24rem;
+    /* Corresponding to w-96 in Tailwind */
+    height: 18rem;
+    /* Corresponding to h-72 in Tailwind */
+    position: absolute;
+    left: 675px;
+    /* Corresponding to left-[675px] in Tailwind */
+    top: 46px;
+    /* Corresponding to top-[46px] in Tailwind */
+    background-color: white;
+    opacity: 0.6;
+    /* Corresponding to bg-opacity-60 in Tailwind */
+    border-radius: 20px;
+    /* Corresponding to rounded-2xl in Tailwind */
+    border: 8px solid black;
+    /* Corresponding to border-8 border-black in Tailwind */
+}
+
+/* Specific Styles for the e-div and its Children */
+.e-div {
+    width: 24rem;
+    /* Corresponding to w-96 in Tailwind */
+    height: 5rem;
+    /* Corresponding to h-20 in Tailwind */
+    padding: 1.5rem;
+    /* Corresponding to p-6 in Tailwind */
+    position: absolute;
+    left: 38px;
+    /* Corresponding to left-[38px] in Tailwind */
+    top: 354px;
+    /* Corresponding to top-[354px] in Tailwind */
+    justify-content: space-between;
+    /* Corresponding to justify-between in Tailwind */
+    align-items: center;
+    /* Corresponding to items-center in Tailwind */
+    display: inline-flex;
+}
+
+/* Specific Styles for the f-div and its Children */
+.f-div {
+    justify-content: start;
+    /* Corresponding to justify-start in Tailwind */
+    align-items: center;
+    /* Corresponding to items-center in Tailwind */
+    gap: 1rem;
+    /* Adjust as needed */
+    display: flex;
+}
+
+/* Specific Styles for the g-div and its Children */
+.g-div {
+    padding: 0.5rem;
+    /* Adjust as needed */
+    border-radius: 8px;
+    /* Corresponding to rounded-xl in Tailwind */
+    border: 1px solid #CBD5E0;
+    /* Assuming neutral-50 corresponds to #CBD5E0 */
+    justify-content: center;
+    /* Corresponding to justify-center in Tailwind */
+    align-items: center;
+    /* Corresponding to items-center in Tailwind */
+    display: inline-flex;
+}
+
+/* Specific Styles for the h-div and its Children */
+.h-div {
+    width: 1.75rem;
+    /* Adjust as needed */
+    height: 1.75rem;
+    /* Adjust as needed */
+    position: relative;
+}
+
+/* Specific Styles for the i-div and its Children */
+.i-div {
+    padding: 0.5rem;
+    /* Adjust as needed */
+    background-color: #EF4444;
+    /* Assuming rose-500 corresponds to #EF4444 */
+    border-radius: 8px;
+    /* Corresponding to rounded-xl in Tailwind */
+    justify-content: center;
+    /* Corresponding to justify-center in Tailwind */
+    align-items: center;
+    /* Corresponding to items-center in Tailwind */
+    display: inline-flex;
+}
+
+/* Specific Styles for the j-div */
+.j-div {
+    width: 0.375rem;
+    /* Adjust as needed */
+    height: 0.375rem;
+    /* Adjust as needed */
+    border-width: 0.125rem;
+    /* Adjust as needed */
+    border-style: solid;
+    border-color: transparent transparent transparent #EF4444;
+    /* Assuming rose-500 corresponds to #EF4444 */
+    transform: rotate(-45deg);
+    /* Corresponding to rotate-90 in Tailwind */
+    margin-right: 0.125rem;
+    /* Adjust as needed */
+}
+
+/* Specific Styles for the q-div and its Children */
+.q-div {
+    justify-content: start;
+    /* Corresponding to justify-start in Tailwind */
+    align-items: start;
+    /* Corresponding to items-start in Tailwind */
+    gap: 1rem;
+    /* Adjust as needed */
+}
+
+.qwertyui{
+    height: 0px;
+    width: 0px;
+}
+
+.instructions::-webkit-scrollbar {
+    width: 5px;
+}
+
+.instructions::-webkit-scrollbar-track {
+    background: #1D232C;
+}
+
+.instructions::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+}
+
+.instructions::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}

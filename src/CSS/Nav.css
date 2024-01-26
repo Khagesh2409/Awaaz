@@ -1,0 +1,60 @@
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(135px,1fr));
+    margin-top: 1rem;
+    text-align: center;
+        
+}
+
+.logmid{
+    font-size:1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(110px,1fr));
+    color:white;
+    margin-top: 1rem;
+    grid-column: span 1.5;
+}
+
+.logset{
+    color: white;
+    font-size: 3.5rem;
+    left:-10px;    
+    text-align: center;
+}
+.logopic{
+    height: 4rem;
+}
+.logend{
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+
+.SignOut{
+    height: 4rem;
+    /* grid-column: span 1.5; */
+    width:16vw;
+    font-size: 1.5rem;
+    cursor:pointer;
+    color: white;
+    background: 
+        linear-gradient(#13111A, #13111A) padding-box,
+        linear-gradient(60deg, #7353E5, #CE4DA4) border-box;
+    border: 2px solid transparent;
+    border-radius: 1.5rem;
+    /* background-color: transparent;  */
+
+}
+
+.Navcontent1:hover{
+    /* font-weight: bold; */
+    width: auto;
+    cursor:pointer;
+
+}
+
+.Navcontent:hover{
+    font-weight: bold;
+    cursor:pointer;
+
+}

@@ -1,0 +1,58 @@
+.contant{
+    background-color: #0d0b11;
+    height: 2.25rem;
+    width:40vw;
+    margin: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    padding: 0.25rem;
+    padding-left: 0.5rem;
+    color: white;
+}
+
+
+.contants{
+    background-color: #0d0b11;
+    height: 10rem;
+    width:90vw;
+    margin-left: 2vw;
+    margin-top: 0rem;
+    border-radius: 1rem;
+    padding: 0.25rem;
+    padding-left: 0.5rem;
+    text-align: justify;
+    color: white;
+}
+@media screen and (max-width:925px) {
+    .contant{
+        width: 85vw;
+        margin: 2rem;
+    }
+    
+}
+
+@media screen and (max-width:450px) {
+    .contant{
+        width: 85vw;
+        margin: 1rem;
+    }
+    
+}
+
+@media screen and (max-width:450px) {
+    .contant{
+        width: 85vw;
+        margin: .1rem;
+    }
+    
+}
+
+@media screen and (max-width:450px) {
+    .contacttxt{
+        /* width: 85vw; */
+        font-size: 3rem;
+        margin: 1rem;
+    }
+    
+}

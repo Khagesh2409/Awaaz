@@ -1,0 +1,33 @@
+.crdgrid{
+    /* padding:5rem; */
+    margin-top:10rem;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(26rem,1fr));
+    justify-items: center;
+    background: radial-gradient(#CE4DA4,#7353E5, #13111A,#13111A,#13111A,#13111A,#13111A, #13111A);
+
+}
+@media screen and (max-width:736px) {
+    .crdgrid{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .crd{
+        width: 75vw;
+
+    }
+    .crdgrid{
+        display: block;
+        justify-content: left;
+    }
+}
+@media screen and (max-width:250px) {
+    .crd{
+        width: 75vw;
+    }
+}
+/* .crdgrid:hover{
+ 
+} */
