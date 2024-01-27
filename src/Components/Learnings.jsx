@@ -4,6 +4,7 @@ import '../CSS/Learnings.css';
 import Footer from './Footer';
 import teeth from '../Assets/image 31.png'
 import assistance from '../Assets/Component 31.png'
+import videoMouth from '../Assets/InShot_20240126_153904344.mp4'
 
 
 class Learnings extends React.Component {
@@ -258,7 +259,7 @@ class Learnings extends React.Component {
                                     </div>
                                 ) : (
                                     <div style={{ textAlign: 'center', marginTop: '3%', borderRadius: '50%', width: 'fit-content', padding: '15px', border: 'red 4px solid' }}>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="red" class="bi bi-mic" viewBox="0 0 16 16">
+                                        <svg onClick={this.fetchVoice} xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="red" class="bi bi-mic" viewBox="0 0 16 16" style={{ cursor: 'pointer'}}>
                                             <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5" />
                                             <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3" />
                                         </svg>
@@ -267,7 +268,7 @@ class Learnings extends React.Component {
                                 <div>
                                     {/* {this.state.output ? this.state.output.word1 : 'What you speak will apear here'}<br /> */}
                                 </div>
-                                <div onClick={this.fetchVoice} style={{ textAlign: 'center', marginTop: '12%', color: 'white', fontSize: '30px', letterSpacing: '3px', marginLeft: '1%' }}>{this.state.listen}</div>
+                                <div onClick={this.fetchVoice} style={{ textAlign: 'center', marginTop: '12%', color: 'white', fontSize: '30px', letterSpacing: '3px', marginLeft: '1%' , cursor: 'pointer' }}>{this.state.listen}</div>
                             </div>
                         </div>
                         <div style={{ marginTop: '3%' }}>
@@ -325,17 +326,22 @@ class Learnings extends React.Component {
                     <div style={{ backgroundColor: '#13111A', width: '90%', boxShadow: "0px  9px 8px 1px #CE4DA4, 0px 6px 20px 10px #7353E5", borderRadius: '10px', height: '600px' }}>
                         <div style={{ padding: '3%', height: '100%' }}>
                             <div style={{ display: 'flex', justifyContent: 'space-evenly', height: '80%', gap: '5%' }}>
-                                <div style={{ display: 'flex', backgroundColor: 'gray', border: '5px solid black', borderRadius: '10px', justifyContent: 'center', alignItems: 'center' }}>
+                                {/* <div style={{ display: 'flex', backgroundColor: 'gray', border: '5px solid black', borderRadius: '10px', justifyContent: 'center', alignItems: 'center' }}>
                                     <img src={teeth} alt='teeth' height='90%' style={{ padding: '1%' }} />
+                                </div> */}
+                                <div style={{ display: 'flex', backgroundColor: 'gray', border: '5px solid black', borderRadius: '10px', justifyContent: 'center', alignItems: 'center' }}>
+                                    <video width="320" height='90%' controls>
+                                        <source src={videoMouth} type='video/mp4' />
+                                    </video>
                                 </div>
                                 <div className='instructions' style={{ backgroundColor: '#312c42', border: '5px solid black', borderRadius: '10px', padding: '1%', overflowY: 'scroll' }}>
                                     <h1 style={{ textDecoration: 'underline', color: 'white' }}>Instructions</h1>
                                     {
-                                        this.state.improvizationData ? <p style={{ color: 'white', fontSize: '30px' }}>{this.state.improvizationData.remedy} </p>: <div>dsds</div>
+                                        this.state.improvizationData ? <p style={{ color: 'white', fontSize: '30px' }}>{this.state.improvizationData.remedy} </p>: <div style={{ color: 'white', fontSize: '30px' }}>--REMEDIES WILL APPEAR HERE--</div>
                                     }
 
                                     {this.state.improvization && (
-                                        <div style={{ color: 'white', lineHeight: '200%' }}>{this.fetchRemedy(this.state.average)}</div>
+                                        <div style={{ color: 'white', lineHeight: '200%' }}>{this.fetchRemedy(Math.floor(this.state.average))}</div>
                                     )}
                                 </div>
                             </div>

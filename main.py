@@ -66,7 +66,7 @@ REMEDY = {
 
 def check(word_given, word_recieved, check_for):
         for i in range(len(word_recieved)):
-              if word_recieved[i]=='.' or word_recieved[i]=='/' or word_recieved[i]==' ':
+              if word_recieved[i]=='.' or word_recieved[i]=='\n' or word_recieved[i]==' ' or word_recieved[i]=='!':
                     word_recieved=word_recieved[0:i]
                     break
         print(word_given,word_recieved,check_for)
